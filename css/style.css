@@ -4,6 +4,12 @@
   --background-button: #2468ff;
   --header-color-text: #161f49;
 }
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -28,4 +34,24 @@ body {
 .header-btn {
   color: var(--white-button);
   background-color: var(--background-button);
+}
+.hero {
+  background-color: tomato;
+}
+.hero-title {
+  font-size: 72px;
+  line-height: 1.1;
+  color: var(--white-button);
+}
+.hero-text {
+  font-size: 21px;
+  line-height: 29px;
+  color: var(--white-button);
+}
+.hero-link {
+  font-size: 14px;
+  line-height: 0.96;
+  letter-spacing: 0.11px;
+  text-transform: uppercase;
+  color:var(--white-button);
 }
