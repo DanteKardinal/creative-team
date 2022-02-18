@@ -1,0 +1,31 @@
+:root {
+  --header-text: #404040;
+  --white-button: #ffffff;
+  --background-button: #2468ff;
+  --header-color-text: #161f49;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.text-ship {
+  background-color: var(--header-color-text);
+  font-size: 14px;
+  line-height: 1.64;
+  text-align: center;
+  letter-spacing: 0.11px;
+  color: #ffffff;
+}
+
+.header-text-item {
+  color: var(--header-text);
+  font-size: 18px;
+  line-height: 1.38;
+  text-align: center;
+  letter-spacing: 0.11px;
+}
+
+.header-btn {
+  color: var(--white-button);
+  background-color: var(--background-button);
+}
