@@ -53,5 +53,16 @@ body {
   line-height: 0.96;
   letter-spacing: 0.11px;
   text-transform: uppercase;
-  color:var(--white-button);
+  color: var(--white-button);
+}
+.amazon-ex {
+  font-size: 18px;
+  line-height: 1.15;
+  color: var(--header-text);
+}
+.amazon-shp {
+  font-size: 14px;
+  line-height: 1.15;
+  text-transform: uppercase;
+  color: var(--header-text);
 }
